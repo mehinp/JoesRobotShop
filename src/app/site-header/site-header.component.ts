@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { IUser } from '_course-resources/user/user.model';
-import { UserService } from '_course-resources/user/user.service';
+import { IUser } from '../user/user.model';
+import { UserService } from '../user/user.service';
+
 
 @Component({
   selector: 'bot-site-header',
